@@ -1,0 +1,46 @@
+*
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+#titulo{
+    background-color:  rgb(221, 221, 221);
+    color:rgb(0, 81, 187);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+    height: 40px;
+    width: 200px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+header{
+    font-family: 'Playfair Display', serif;
+    padding: 3rem 4rem;
+}
+
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.Recuadro_LRG{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}

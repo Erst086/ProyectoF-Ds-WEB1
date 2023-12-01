@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+    background-color: rgb(209, 222, 225);
+}
+header{
+    display: flex;
+    justify-content:center ;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 132);
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+}
+
+
+/* Las partes de ico y fes son para ajustar los logos centrados */
+#ico{
+    text-align: center;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.45rem;
+}
+
+#fes{
+    text-align: center;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.45rem;
+}
+
+
+#creador, #tablas {
+    background-color: rgb(178, 190, 197);
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    padding: 0.45rem;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* aqui se agrega color para las tablas */
+#tabla1, #tabla2{
+    background-color: rgb(240, 213, 255);
+    border-color: rgb(255, 71, 123);
+    margin:0 auto;
+
+}
+
+ footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 132);
+    padding: 3rem 2rem;
+ }

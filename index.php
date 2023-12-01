@@ -49,10 +49,10 @@
             <!--Formulario de Login y registro-->
             <div class="login-register">
                 <!--Login-->
-                <form action="" class="FML-login">
+                <form action="conexiones/login_usuario.php" method="POST" class="FML-login">
                     <h2>Iniciar Sesion</h2>
-                    <input type="text" required placeholder="Correo Electronico">
-                    <input type="password" required placeholder="Contraseña">
+                    <input type="text" required placeholder="Correo Electronico" name="email">
+                    <input type="password" required placeholder="Contraseña" name="contrasena">
                     <button>Entrar</button>
                 </form>
 

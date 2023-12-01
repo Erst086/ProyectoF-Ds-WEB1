@@ -42,7 +42,7 @@
 
     <div id="container">
         <h1>Política de Privacidad</h1>
-        <h2><a href="Index.php">*--Volver a la pagina principal--*</a></h2>
+        <h2><a href="../index.php">*--Volver a la pagina principal--*</a></h2>
 
         <p>Fecha de última actualización: [3/11/2023]</p>
 

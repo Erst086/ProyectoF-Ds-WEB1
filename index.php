@@ -51,21 +51,21 @@
                 <!--Login-->
                 <form action="" class="FML-login">
                     <h2>Iniciar Sesion</h2>
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" required placeholder="Correo Electronico">
+                    <input type="password" required placeholder="Contraseña">
                     <button>Entrar</button>
                 </form>
 
                 <!--Registro-->
                 <form action="conexiones/registro_usuario.php" method="POST" class="FML-register">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre o Nombres" name="nombre">
-                    <input type="text" placeholder="Apellido Paterno" name="ap_paterno">
-                    <input type="text" placeholder="Apellido Materno" name="ap_materno">
-                    <input type="text" placeholder="Correo Electronico"name="email">
-                    <input type="password" placeholder="Contraseña"name="contrasena">
+                    <input type="text" required placeholder="Nombre" name="nombre">
+                    <input type="text" required placeholder="Apellido Paterno" name="ap_paterno">
+                    <input type="text" required placeholder="Apellido Materno" name="ap_materno">
+                    <input type="text" required placeholder="Correo Electronico"name="email">
+                    <input type="password" required placeholder="Contraseña"name="contrasena">
                     <button>Registrarse</button>
-                    <h6><a href="politica.php" style="color: black;">Precione para leer las políticas de privacidad ... je je</a></h6>
+                    <h6><a href="paginas_anexas/politica.php" style="color: black;">Precione para leer las políticas de privacidad ... je je</a></h6>
                 </form>
             </div>
         </div>

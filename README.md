@@ -19,3 +19,7 @@ cosas que ya no pude meter por mi xamp
 + boton de cerrar sesion 
 + control se sesion y seguridad
 Att: hice lo mejor que pude :,v 
+
+Nota absolutamente todo fue hecho a mano y no ocupando ninguna plantilla
+me sentiria desonrrado si ocupara plantillas jeje bueno eso es todo :3
+

@@ -57,13 +57,13 @@
                 </form>
 
                 <!--Registro-->
-                <form action="" class="FML-register">
+                <form action="conexiones/registro_usuario.php" class="FML-register">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre o Nombres">
-                    <input type="text" placeholder="Apellido Paterno">
-                    <input type="text" placeholder="Apellido Materno">
-                    <input type="text" placeholder="Correo Electronico">
-                    <input type="password" placeholder="Contraseña">
+                    <input type="text" placeholder="Nombre o Nombres" name="nombre">
+                    <input type="text" placeholder="Apellido Paterno" name="ap_paterno">
+                    <input type="text" placeholder="Apellido Materno" name="ap_materno">
+                    <input type="text" placeholder="Correo Electronico"name="email">
+                    <input type="password" placeholder="Contraseña"name="contrasena">
                     <button>Registrarse</button>
                     <h6><a href="politica.php" style="color: black;">Precione para leer las políticas de privacidad ... je je</a></h6>
                 </form>

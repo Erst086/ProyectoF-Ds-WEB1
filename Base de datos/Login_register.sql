@@ -11,12 +11,12 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `ap_paterno` VARCHAR(45) NOT NULL,
   `ap_materno` VARCHAR(45) NOT NULL,
   `email` VARCHAR(50) NOT NULL,
-  `contraseña` VARCHAR(45) NOT NULL,
+  `contrasena` VARCHAR(45) NOT NULL,
   UNIQUE KEY `email_UNIQUE` (`email`)
 );
 
 -- Insertar datos de ejemplo con nombres aleatorios
-INSERT INTO `usuarios` (`nombre`, `ap_paterno`, `ap_materno`, `email`, `contraseña`) VALUES
+INSERT INTO `usuarios` (`nombre`, `ap_paterno`, `ap_materno`, `email`, `contrasena`) VALUES
 ('Juan', 'López', 'Gómez', 'juan.lopez@example.com', 'contraseña123'),
 ('María', 'Martínez', 'García', 'maria.martinez@example.com', 'clave456'),
 ('Carlos', 'Fernández', 'Rodríguez', 'carlos.fernandez@example.com', 'p4ssw0rd'),

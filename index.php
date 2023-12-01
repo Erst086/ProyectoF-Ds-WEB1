@@ -7,7 +7,7 @@
     <meta name="description" content="Pagina de inicio Registro y Logueo">
     <meta name="keywords" content="HTML, Basico, Curso, UNAM, ICO">
     <meta name="author" content="Ernesto Contreras">
-    /<!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+    <!--//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
@@ -59,13 +59,13 @@
                 <!--Registro-->
                 <form action="" class="FML-register">
                     <h2>Registrarse</h2>
-                    <input type="text" placeholder="Nombre completo">
-                    <input type="text" placeholder="Nombre de Usuario">
+                    <input type="text" placeholder="Nombre o Nombres">
+                    <input type="text" placeholder="Apellido Paterno">
+                    <input type="text" placeholder="Apellido Materno">
                     <input type="text" placeholder="Correo Electronico">
-                    <input type="text" placeholder="Usuario">
                     <input type="password" placeholder="Contraseña">
                     <button>Registrarse</button>
-                    <h6><a href="politica.html" style="color: black;">Precione para leer las políticas de privacidad ... je je</a></h6>
+                    <h6><a href="politica.php" style="color: black;">Precione para leer las políticas de privacidad ... je je</a></h6>
                 </form>
             </div>
         </div>

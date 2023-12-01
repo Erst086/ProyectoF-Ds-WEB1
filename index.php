@@ -57,7 +57,7 @@
                 </form>
 
                 <!--Registro-->
-                <form action="conexiones/registro_usuario.php" class="FML-register">
+                <form action="conexiones/registro_usuario.php" method="POST" class="FML-register">
                     <h2>Registrarse</h2>
                     <input type="text" placeholder="Nombre o Nombres" name="nombre">
                     <input type="text" placeholder="Apellido Paterno" name="ap_paterno">

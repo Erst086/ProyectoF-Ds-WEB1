@@ -11,8 +11,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
   `ap_paterno` VARCHAR(45) NOT NULL,
   `ap_materno` VARCHAR(45) NOT NULL,
   `email` VARCHAR(50) NOT NULL,
-  `contrasena` VARCHAR(45) NOT NULL,
-  UNIQUE KEY `email_UNIQUE` (`email`)
+  `contrasena` VARCHAR(45) NOT NULL
 );
 
 -- Insertar datos de ejemplo con nombres aleatorios

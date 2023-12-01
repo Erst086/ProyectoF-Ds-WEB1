@@ -17,9 +17,9 @@
         <img id="logo" src="recursos/logo.png" alt="logo" width="125px" height="125px">
 </header>
 <body>
-<article id="ttlGA">
+    <article>
         <h1>Tabla de trabajadores </h1>
-</article><br>
+    </article><br>
 
     <div>
         <table id="tabla1" border="1">
@@ -61,11 +61,13 @@
             } else {
                 echo "<tr><td colspan='8' style='color:red;'>Sin ningún registro</td></tr>";
             }
+            
             ?>
         </table>
     </div>
-<footer>
-</footer>
-</body>
 
+</body>
+<footer>
+<h1><a href='paginas_anexas/eliminarUsuario.php'>ElimnarUsuario</a></h1>
+</footer>
 </html>

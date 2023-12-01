@@ -1,7 +1,7 @@
 
 body{
     margin: 0;
-    background-color: rgb(189, 249, 254);
+    background-image: url(../recursos/fondoazul.jpg);
 }
 
 #logo{
@@ -24,8 +24,11 @@ header h1{
     text-align: center;
     font-family: 'Lilita One', cursive;
 }
+div{
+    margin-bottom: 20px;
+}
 
-#ttlGA {
+article {
     background-color: rgb(0, 0, 0);
     border-radius: 20px;
     height: 60px;
@@ -36,10 +39,10 @@ header h1{
     color: rgb(255, 0, 132);
 }
 
- footer{
+footer{
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 0, 132);
     padding: 3rem 2rem;
+    
  }
 
 /* aqui se agrega color para las tablas */

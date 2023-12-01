@@ -13,19 +13,30 @@
 </head>
 
 <header>
-    <h1>Pagina de registros de trabajadores</h1>
+    <h1>GA Proyects </h1>
+        <img id="logo" src="recursos/logo.png" alt="logo" width="125px" height="125px">
 </header>
-
 <body>
-    <article>
-        <section>
+<article id="ttlGA">
+        <h1>Tabla de trabajadores </h1>
+</article><br>
 
-        </section>
-        <hr>
-    </article>
-    <article id="tabla1" >
+    <div>
+        <table id="tabla1" border="1">
+            <tr>
+                <th>ID Trabajador</th>
+                <th>RFC</th>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+                <th>Domicilio</th>
+                <th>Teléfono</th>
+                <th>Correo Electrónico</th>
+            </tr>
             <?php
-            require "conexion.php";
+            // Reemplaza "conexion2.php" con el nombre correcto de tu archivo de conexión
+            require "conexiones/conexion2.php";
+
             mysqli_set_charset($conexion, 'utf8');
 
             $consulta_sql = "SELECT * FROM personal";
@@ -51,6 +62,10 @@
                 echo "<tr><td colspan='8' style='color:red;'>Sin ningún registro</td></tr>";
             }
             ?>
-    </article>
+        </table>
+    </div>
+<footer>
+</footer>
 </body>
+
 </html>
